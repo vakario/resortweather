@@ -1,0 +1,298 @@
+/* CSS Document */
+@font-face {
+    font-family: 'MeteoconsRegular';
+    src: url('Font-face/meteocons-webfont.eot');
+    src: url('Font-face/meteocons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Font-face/meteocons-webfont.woff') format('woff'),
+         url('Font-face/meteocons-webfont.ttf') format('truetype'),
+         url('Font-face/meteocons-webfont.svg#MeteoconsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Swiss-light';
+	src: url('Font-face/2B4A63_0_0.eot');
+	src: url('Font-face/2B4A63_0_0.eot?#iefix') format('embedded-opentype'),
+	 	 url('Font-face/2B4A63_0_0.ttf') format('truetype'),
+		 url('Font-face/2B4A63_0_0.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[data-icon]:before {
+	font-family: 'MeteoconsRegular';
+	content: attr(data-icon);
+	font-size:60px;
+	line-height:60px;
+	color:#bcdbec;
+}
+
+#mod_resort_weather {
+	padding:12px 0;
+	/*background:#e9f4f8;*/
+}
+
+#weather_container1 {
+	padding:0;
+	padding-right:5px;
+}
+#weather_container2, #weather_container3 {
+	padding:0 5px;
+}
+#weather_container4 {
+	padding:0;
+	padding-left:5px;
+}
+#snow_day, #snow_info, #day0_weather, #day1_weather {
+	background:#FFFFFF;
+	font-family: "Open sans", sans serif;
+	font-weight:bold;
+	color:#3a3737;
+	text-transform:uppercase;
+	padding: 0;
+	padding-left:10%;
+	padding-top: 20px;
+	height:220px;
+}
+
+#mod_resort_weather .margin_cont{
+	width:100%;
+	margin:auto;}
+
+#mod_resort_weather .day_title{
+	font-size: 14px;
+	color:#918f8f;
+}
+
+#mod_resort_weather .day_date{
+	font-size: 22px;
+	text-transform:uppercase;
+	padding-bottom:18px;
+	padding-top:5px;
+}
+
+#mod_resort_weather .day_wind, #mod_resort_weather .day_weather, #mod_resort_weather .night_weather {
+	padding:0;
+}
+
+#mod_resort_weather .day_before_icon {
+	font-size:14px;
+	padding-left:5px;
+	padding-bottom: 5px;
+}
+
+#mod_resort_weather .day_value {
+	font-size:32px;
+	line-height:32px;
+	padding-left:5px;
+	float:left;
+	padding-top: 3px;
+}
+
+#mod_resort_weather .day_unit {
+	font-size:18px;
+	padding-left:5px;
+	float:left;
+	padding-top:5px;
+}
+
+#snow_info_upper, #snow_info_lower, #snow_icon_upper, #snow_icon_lower,
+#snow_info_upper .day_before_icon, #snow_info_lower .day_before_icon {
+	padding:0;
+}
+
+#snow_info_upper > div, #snow_info_lower > div {
+	clear:both;
+}
+
+#snow_icon_lower {
+	float:left;
+	clear:both;
+}
+
+#snow_info_lower {
+	padding-left:10px;
+	padding-top: 5px;
+}
+
+#mod_resort_weather .snow_info_depth .day_value{
+	padding-left:0;
+}
+
+#snow_day .snow_day_date .day_value {
+	padding-top:14px;
+	padding-left: 0;
+}
+
+#snow_day .snow_day_date .day_date {
+	padding-top: 24px;
+	display: block;
+	padding-bottom: 0;
+	padding-left: 0;
+	float: left;
+}
+
+#mod_resort_weather #snow_day_subtitle {
+	padding-bottom:30px;
+}
+
+@media (max-width:1200px){
+	#mod_resort_weather .day_value {
+		font-size: 29px;
+		line-height: 35px;}
+	#mod_resort_weather .day_unit {
+		font-size: 16px;}
+	#mod_resort_weather .day_date {
+		font-size: 18px;}
+	[data-icon]:before {
+		font-size: 50px;
+		line-height: 50px;}}
+@media (max-width:640px){
+		#mod_resort_weather {
+	padding:12px 0;
+	/*background:#e9f4f8;*/
+}
+
+#weather_container1 {
+	padding:0;
+	padding-right:5px;
+	padding-left:10px;
+	clear:none;
+	float:left;
+}
+#weather_container2{
+	padding-right:10px;
+	padding-left:5px;
+	clear:none;
+	float:left;}
+ #weather_container3 {
+	padding: 10px;
+	clear:none;
+	float:left;
+	position:relative;
+}
+#weather_container4 {
+	padding:0 10px;
+	clear:none;
+	float:left;
+}
+#mod_resort_weather .day_value {
+	font-size: 24px;
+	line-height: 37px;
+}
+#mod_resort_weather .day_title {
+	font-size: 12px;
+	color: #918f8f;
+}
+#mod_resort_weather .day_date {
+	font-size: 16px;
+}
+}
+		
+@media (min-width:641px) and (max-width:992px){
+	#mod_resort_weather {
+		position: relative;		}
+		
+	#weather_container1{
+		position:relative;
+		padding-bottom:10px;}
+		
+	#weather_container2{
+		float: left;
+		clear: both;
+		padding-left:0;}
+		
+	#weather_container3{
+		position: absolute;
+		right: 0;
+		padding-right: 0;}
+
+}
+
+		
+@media only screen and (max-device-width : 801px){
+	#mod_resort_weather {
+		position: relative;		}
+		
+	#weather_container1{
+		position:relative;
+		padding-bottom:10px;}
+		
+	#weather_container2{
+		float: left;
+		clear: both;
+		padding-left:0;}
+		
+	#weather_container3{
+		position: absolute;
+		right: 0;
+		padding-right: 0;}
+}
+@media only screen and (max-device-width : 1170px) and (orientation : landscape) {
+	#mod_resort_weather {
+	padding:12px 0;
+	/*background:#e9f4f8;*/
+}
+
+#weather_container1 {
+	padding:0;
+	padding-right:5px;
+	clear:none;
+	float:left;
+}
+#weather_container3{
+	position:relative;}
+#weather_container2, #weather_container3 {
+	padding:0 5px;
+	clear:none;
+	float:left;
+}
+#weather_container4 {
+	padding:0;
+	padding-left:5px;
+	clear:none;
+	float:left;
+}
+}
+@media only screen and (max-device-width:640px){
+		#mod_resort_weather {
+	padding:12px 0;
+	/*background:#e9f4f8;*/
+}
+
+#weather_container1 {
+	padding:0;
+	padding-right:5px;
+	padding-left:10px;
+	clear:none;
+	float:left;
+}
+#weather_container2{
+	padding-right:10px;
+	padding-left:5px;
+	clear:none;
+	float:left;}
+ #weather_container3 {
+	padding: 10px;
+	clear:none;
+	float:left;
+	position:relative;
+}
+#weather_container4 {
+	padding:0 10px;
+	clear:none;
+	float:left;
+}
+#mod_resort_weather .day_value {
+	font-size: 24px;
+	line-height: 37px;
+}
+#mod_resort_weather .day_title {
+	font-size: 12px;
+	color: #918f8f;
+}
+#mod_resort_weather .day_date {
+	font-size: 16px;
+}
+}
+	
