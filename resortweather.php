@@ -13,7 +13,7 @@ class resortWeather extends Module
 	{
 		$this->name 			= 'resortweather';
 		$this->tab 				= 'front_office_features';
-		$this->version			= '1.0';
+		$this->version			= '1.1';
 		$this->author			= 'Vakario';
 		$this->displayName		= $this->l('Resort Weather');
 		$this->description		= $this->l('Module d\'affichage de la météo de votre station sur votre site');
@@ -32,6 +32,8 @@ class resortWeather extends Module
 											'tourmalet'		=> 'uac=W1kQYLTgBh&uref=ecdad9ed-0c74-443f-b414-d8c08f227f59',
 											'vars'			=> 'uac=QavxeddK-.&uref=3ec03192-1177-48c6-9abd-a93e56e8b453',
 											'deuxalpes'		=> 'uac=rTd7BtP2fz&uref=79fc134b-340d-4928-a9d3-fce6a3559c64',
+											'le-sappey'		=> 'uac=rnNcN3dguP&uref=2563c0c7-dea7-45c4-933d-e582222336a0',
+											'crevoux'		=> 'uac=iKgfcRy4vN&uref=fae19e1a-d339-476c-96d5-f2d0f34d80ef',
 											
 										);
 											
